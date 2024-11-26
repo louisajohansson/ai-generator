@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Generator</title>
   </head>
   <body>
@@ -13,11 +14,11 @@
             AI Generator
         </h1></header>
     <main>
-      <form>
+      <form id="form-generator">
         <input class="input" autocomplete="off" autofocus required type="text" placeholder="Enter…" />
         <input class="submit" type="submit" value="Submit"/>
       </form>
-      <div class="answer">
+      <div class="answer" id="form-answer">
         Answer here
       </div>
     </main>
